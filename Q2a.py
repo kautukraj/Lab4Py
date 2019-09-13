@@ -1,16 +1,12 @@
 def banner(m):
     l = len(m)
     i=1
-    while i<=l+4 :
-        print "*",
-
-    print'\n'
-    print "* ",
+    print "*" * (l+4)
+    print "*",
     print m,
-    print " *"
+    print "*"
 
-    while i<=l+4 :
-        print "*",
+    print "*" * (l+4)
     
 
 banner("Good Morning!")
