@@ -1,19 +1,18 @@
 def diamond():
     n=3
     for i in range(1,n+1):
+        c=0
         for j in range(i,n):
-            print " ",
+            c+=1
 
-        for k in range(1,2*i):
-            print "*",
+        print " "*c,
+        print "*"*(2*i-1)
 
-        print "\n"
 
     for i in range(n-1,0,-1):
+        c=0
         for j in range(n,i,-1):
-            print " ",
+            c+=1
 
-        for k in range(1,2*i):
-            print "*",
-
-        print "\n"        
+        print " "*c,
+        print "*"*(2*i-1)
