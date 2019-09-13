@@ -1,3 +1,6 @@
 def print_n_messages(n):
-    for i in range(n):
+    i=1
+    while i<=n:
         print "Hello World!"
+	i+=1
+
